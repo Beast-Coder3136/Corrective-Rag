@@ -1,0 +1,36 @@
+## Virtaul environment
+
+.venv/
+venv/
+.env/
+env/
+ENV/
+
+
+# Environment Variables 
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# RAG / Vector Database
+# =========================
+faiss_index/
+vectorstore/
+chroma/
+chroma_db/
